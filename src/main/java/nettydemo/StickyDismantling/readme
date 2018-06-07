@@ -1,0 +1,5 @@
+Netty中解决TCP粘包/拆包的方法：
+
+①分隔符类：DelimiterBasedFrameDecoder（自定义分隔符）
+
+②定长：FixedLengthFrameDecoder
